@@ -1,4 +1,5 @@
 var clock = $('#clock');
+var text = $('<textarea>').val();
 
 function update() {
   $('#clock').html(moment().format(' MMMM D, YYYY hh:mm:ss'));
@@ -17,23 +18,7 @@ function checkTime() {
         textarea.addClass("present");
     }}
   
-  console.log($(".hour").attr("id"));
-  console.log(moment().format('HH'))
+  // console.log($(".hour").attr("id"));
+  // console.log(moment().format('HH'))
 
-
-// Set the clock
-// var clock = $('#clock');
-// function update() {
-//     $('#clock').html(moment().format('MMMM DD YYYY H:mm:ss'));
-// }
-// setInterval(update, 1000);
-
-// function checkTime() {
-// if (parsInt($(".hour").attr("id")) < parseInt(moment().format('HH'))) {
-//     textarea.addClass("past");
-    
-// }}
-
-
-
-    
+ 

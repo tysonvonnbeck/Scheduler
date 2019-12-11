@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
   line-height: 1;
   
@@ -12,7 +12,7 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
-  width: 50%;
+  width: 55vw;
 }
 
 .jumbotron {
@@ -22,17 +22,19 @@ textarea{
   margin-bottom: 0rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
-  background: linear-gradient(to bottom, #f0b7a1 0%,#8c3310 14%,#bf6e4e 100%); /
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(254,254,254,1) 12%, rgba(71,74,248,1) 84%, rgba(0,3,245,1) 100%);
 }
 
 .description{
   white-space: pre-wrap;
+  background: salmon;
 }
 
 .time-block{
   text-align: center;
   border-radius: 15px;
-  background: #bf6e4e;
+  background: blue;
 }
 
 .row {
@@ -90,6 +92,8 @@ textarea{
   border-radius: 15px;
   box-shadow: 0 0 7px rgb(22, 15, 15);
   text-shadow: 0 0 3px #fff;
-  /* font-family: 'liquid_crystalregular', sans-serif; */
-  
+  font-family: 'liquid_crystalregular', sans-serif;
+  font-size: 4vw;
+
+
 }
